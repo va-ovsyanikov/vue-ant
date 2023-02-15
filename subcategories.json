@@ -1,0 +1,64 @@
+{
+  "subcategories": [
+    {
+      "catId": 1,
+      "id": 1,
+      "title": "ATP Required Power Wheelchair"
+    },
+    {
+      "catId": 1,
+      "id": 2,
+      "title": "Wheelchair Seat Cushion"
+    },
+    {
+      "catId": 1,
+      "id": 3,
+      "title": "Mobility Accessories"
+    },
+    {
+      "catId": 2,
+      "id": 4,
+      "title": "Wheelchair back Cushion"
+    },
+    {
+      "catId": 2,
+      "id": 5,
+      "title": "Knee Walkers"
+    },
+    {
+      "catId": 3,
+      "id": 6,
+      "title": "Crutches"
+    },
+    {
+      "catId": 3,
+      "id": 7,
+      "title": "Canes"
+    },
+    {
+      "catId": 3,
+      "id": 8,
+      "title": "Walkers / Rollators"
+    },
+    {
+      "catId": 4,
+      "id": 9,
+      "title": "Power Scooters"
+    },
+    {
+      "catId": 4,
+      "id": 10,
+      "title": "Power Wheelchairs"
+    },
+    {
+      "catId": 4,
+      "id": 11,
+      "title": "Manual Wheelchairs"
+    },
+    {
+      "catId": 4,
+      "id": 1676475143939,
+      "title": "999"
+    }
+  ]
+}

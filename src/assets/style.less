@@ -1,0 +1,115 @@
+@import "./_variables.less";
+
+* {
+    margin : 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.page__top {
+    border-bottom  : 1px solid @color_gray;
+    height         : 60px;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+
+    // padding-bottom: 5px;
+    h2 {
+        color      : @color_elem_sub;
+        font-size  : 28px;
+        margin-left: 20px;
+    }
+}
+
+.my_notification {
+    .notification-content {
+        padding    : 18px;
+        display    : flex;
+        align-items: center;
+        font-size  : 18px;
+    }
+
+    .success {
+        background-color: @color_beruza;
+        border          : 0;
+    }
+}
+
+.categories__main {
+    display: flex;
+}
+
+.categories__list {
+    height      : 100%;
+    width       : 260px;
+    border-right: 1px solid @color_gray;
+}
+
+.categories__list__top {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+    padding        : 10px 10px 10px 20px;
+    border-bottom  : 1px solid @color_gray;
+    height         : 55px;
+
+    h3 {
+        font-size  : 22px;
+        font-weight: 600;
+        color      : @color_elem;
+    }
+}
+
+.category__btn {
+    border-bottom: 1px solid @color_gray;
+}
+
+.category__btn__content {
+    position       : relative;
+    cursor         : pointer;
+    text-decoration: none;
+    font-weight    : 500;
+    height         : 39px;
+    font-size      : 14px;
+
+    .button {
+        position: absolute;
+        top     : 3px;
+        right   : 0;
+    }
+
+    a {
+        text-decoration: none;
+        color          : @color_elem_sub;
+        padding-left   : 19px;
+        padding-right  : 40px;
+        height         : 100%;
+        display        : flex;
+        align-items    : center;
+
+        &:hover {
+            background-color: @bg_hover_category_link;
+            color           : @color_beruza;
+            // border: 1px solid @color_beruza;
+        }
+    }
+
+    .router-link-active {
+        background-color: @bg_hover_category_link;
+        color           : @color_beruza;
+        border          : 1px solid @color_beruza;
+    }
+}
